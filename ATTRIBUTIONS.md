@@ -2,6 +2,19 @@
 
 このファイルは、このカタログが参照・再配布するupstreamの出典を記録します。
 
+## `keitakn-explain-visually`
+
+- Source: <https://github.com/keitakn/engineering-skills/tree/b785a355ff83a10515a246026a0595a30ef41827/.claude/skills/explain-visually>
+- Upstream repository: <https://github.com/keitakn/engineering-skills>
+- Revision: `b785a355ff83a10515a246026a0595a30ef41827`
+- Author: keitakn
+- Copyright: (c) 2026 keita-koga
+- License: MIT
+- Local copy: [`vendor/keitakn-engineering-skills/.claude/skills/explain-visually/`](vendor/keitakn-engineering-skills/.claude/skills/explain-visually/)
+- 紹介記事: [AIに丸投げしないで理解するためのAI開発手法（2026年8月現在）](https://zenn.dev/avaintelligence/articles/dont-outsource-understanding-to-ai)
+
+スキル本体・テンプレート・検証スクリプトを上流のディレクトリ構成のまま保持し、ルートのLICENSEを[`vendor/keitakn-engineering-skills/LICENSE`](vendor/keitakn-engineering-skills/LICENSE)に保持しています。
+
 ## `cursor-pstack`
 
 - Source: <https://github.com/cursor/plugins/tree/main/pstack>

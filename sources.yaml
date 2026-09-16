@@ -3,6 +3,22 @@ version: 1
 # This file is the source-of-truth for where vendored content comes from.
 # Revisions are pinned to the upstream commits used for this registration.
 sources:
+  - id: keitakn-explain-visually
+    repository: https://github.com/keitakn/engineering-skills
+    ref: main
+    revision: b785a355ff83a10515a246026a0595a30ef41827
+    source_path: .claude/skills/explain-visually/
+    vendor_path: vendor/keitakn-engineering-skills/.claude/skills/explain-visually/
+    kind: agent-skill
+    license: MIT
+    license_status: confirmed
+    distribution: vendored
+    upstream_author: keitakn
+    copyright_holder: keita-koga
+    discovered_via: https://zenn.dev/avaintelligence/articles/dont-outsource-understanding-to-ai
+    registered_at: '2026-09-16'
+    notes: Preserve the complete explain-visually directory and upstream root LICENSE at vendor/keitakn-engineering-skills/LICENSE. Catalog registration only; not installed into an agent skill directory.
+
   - id: lassejlv-skills
     repository: https://github.com/lassejlv/skills
     ref: main
